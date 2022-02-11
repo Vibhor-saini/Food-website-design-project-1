@@ -92,7 +92,7 @@
 /* Home section */
 #home {
   display: flex;
-  background-color: bisque;
+  /* background-color: bisque; */
   flex-direction: column;
   padding: 3px 200px;
   height: 610px;
@@ -101,8 +101,7 @@
 }
 #home::before {
   content: "";
-  background: url("image/tomatoes-5365186_1920.jpg") no-repeat center
-    center/cover;
+  background: url(/image/tomatoes-5365186_1920.jpg);
   position: absolute;
 
   height: 630px;
